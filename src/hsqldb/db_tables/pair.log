@@ -1,0 +1,6 @@
+/*C3*/SET SCHEMA PUBLIC
+drop table pair
+create table pair ( id INTEGER, name1 VARCHAR(10), name2 VARCHAR(10))
+INSERT INTO PAIR VALUES(1,'testdev1','testdev2')
+COMMIT
+DISCONNECT
